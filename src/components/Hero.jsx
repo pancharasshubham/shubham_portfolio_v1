@@ -52,7 +52,7 @@ const Hero = () => {
         </h1>
 
         {/* Supporting Text */}
-        <p className="mt-6 text-lg md:text-xl leading-relaxed text-[#94A3B8] max-w-xl">
+        <p className="mt-6 text-lg md:text-xl leading-relaxed text-[#94A3B8] max-w-lg">
           Full-stack developer building scalable, performance-focused web applications with modern frontend architecture.
         </p>
 
