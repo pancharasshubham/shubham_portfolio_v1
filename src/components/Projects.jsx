@@ -123,17 +123,17 @@ const Projects = () => {
               className="group rounded-2xl overflow-hidden border border-white/10 bg-[#111827]/80 backdrop-blur-sm"
             >
               {/* Project Image */}
-              <div className="relative overflow-hidden aspect-[16/10]">
+              <div className="relative overflow-hidden aspect-[16/10] bg-[#0F172A] rounded-t-2xl">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  className="w-full h-full object-cover will-change-transform transition-transform duration-500 group-hover:scale-[1.015]"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-[#111827]/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#111827]/70 via-transparent to-transparent" />
 
                 {project.featured && (
-                  <div className="absolute top-4 left-4">
+                  <div className="mb-2">
                     <span className="px-3 py-1 rounded-full bg-[#38BDF8]/10 border border-[#38BDF8]/20 text-xs font-medium text-[#38BDF8]">
                       Featured
                     </span>
