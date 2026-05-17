@@ -90,17 +90,18 @@ const Projects = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="mb-16"
+          className="mb-16 text-center"
         >
           <span className="text-sm uppercase tracking-[0.25em] text-[#38BDF8] font-medium">
             Selected Work
           </span>
-
+          
           <h2 className="mt-4 text-4xl md:text-5xl font-black tracking-tight text-white">
-            Featured Case Studies
+            Featured <span className="bg-gradient-to-r from-[#38BDF8] to-[#22C55E] bg-clip-text text-transparent">Case Studies</span>
           </h2>
+          <div className="w-20 h-1 bg-gradient-to-r from-[#38BDF8] to-[#22C55E] mx-auto mt-5 mb-6"></div>
 
-          <p className="mt-5 text-lg text-[#94A3B8] max-w-2xl leading-relaxed">
+          <p className="mt-5 text-lg text-[#94A3B8] max-w-2xl leading-relaxed mx-auto">
             Real-world products focused on usability,
             scalability, performance, and practical business impact.
           </p>
