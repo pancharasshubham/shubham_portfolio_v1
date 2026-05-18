@@ -107,7 +107,7 @@ const InspireXCaseStudy = () => {
                     {/* Screen */}
                     <div className="overflow-hidden rounded-[2rem] border border-white/5">
                     <img
-                        src="/projects/inspirex/inspirex-hero.png"
+                        src="/projects/inspirex/hero.png"
                         alt="InspireX mobile preview"
                         className="w-full object-cover object-top"
                     />

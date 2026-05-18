@@ -13,7 +13,7 @@ const Projects = () => {
 
     tech: ['Next.js', 'PWA', 'Node.js', 'MongoDB'],
 
-    image: '/projects/inspirex-preview.png',
+    image: '/projects/inspirex/hero.png',
 
     live: 'https://inspire-x-pink.vercel.app/',
 
