@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, ArrowRight, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   const featuredProjects = [
@@ -176,12 +177,12 @@ const Projects = () => {
 
                 {/* CTA */}
                 <div className="mt-8 flex items-center gap-3">
-                  <a href={project.caseStudy}>
+                  <Link to={project.caseStudy}>
                     <Button className="bg-[#38BDF8] hover:bg-[#0EA5E9] text-white rounded-xl">
                       Case Study
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
-                  </a>
+                  </Link>
 
                   {project.live && (
                     <a
