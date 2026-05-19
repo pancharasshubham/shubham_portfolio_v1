@@ -4,6 +4,7 @@ import ScrollToTop from '@/components/ScrollToTop';
 import HomePage from '@/pages/HomePage';
 import InspireXCaseStudy from '@/pages/case-studies/InspireXCaseStudy';
 import SaaScopeCaseStudy from '@/pages/case-studies/SaaScopeCaseStudy';
+import AIUsagePolicyCaseStudy from '@/pages/case-studies/AIUsagePolicyCaseStudy';
 
 import { Toaster } from '@/components/ui/toaster';
 
@@ -28,6 +29,11 @@ function App() {
         <Route
           path="/projects/saascope-api"
           element={<SaaScopeCaseStudy />}
+        />
+
+        <Route
+          path="/projects/ai-usage-policy-generator"
+          element={<AIUsagePolicyCaseStudy />}
         />
 
       </Routes>

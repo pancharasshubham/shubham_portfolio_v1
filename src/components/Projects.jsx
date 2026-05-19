@@ -25,6 +25,23 @@ const Projects = () => {
   },
 
   {
+    title: 'SaaScope API',
+
+    description:
+      'Backend-focused SaaS analytics and reporting API designed for scalable data workflows, filtering systems, and production-ready architecture.',
+
+    tech: ['Node.js', 'Express.js', 'MongoDB', 'REST API'],
+
+    image: '/projects/saascope-api/hero.png',
+
+    live: '',
+
+    caseStudy: '/projects/saascope-api',
+
+    github: 'https://github.com/pancharasshubham/saascope-api',
+  },
+
+  {
     title: 'Real Estate Business Website',
 
     description:
@@ -44,23 +61,6 @@ const Projects = () => {
   },
 
   {
-    title: 'SaaScope API',
-
-    description:
-      'Backend-focused SaaS analytics and reporting API designed for scalable data workflows, filtering systems, and production-ready architecture.',
-
-    tech: ['Node.js', 'Express.js', 'MongoDB', 'REST API'],
-
-    image: '/projects/saascope-api/hero.png',
-
-    live: '',
-
-    caseStudy: '/projects/saascope-api',
-
-    github: 'https://github.com/pancharasshubham/saascope-api',
-  },
-
-  {
     title: 'AI Usage Policy Generator',
 
     description:
@@ -68,11 +68,11 @@ const Projects = () => {
 
     tech: ['React', 'Node.js', 'PDF'],
 
-    image: '/projects/ai-policy-preview.png',
+    image: '/projects/ai-policy-generator/hero.png',
 
     live: 'https://ai-usage-policy-generator.vercel.app/',
 
-    caseStudy: '/projects/ai-policy-generator',
+    caseStudy: '/projects/ai-usage-policy-generator',
 
     github:
       'https://github.com/pancharasshubham/ai-usage-policy-generator',
