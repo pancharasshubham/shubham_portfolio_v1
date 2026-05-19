@@ -89,21 +89,71 @@ const RealEstateCaseStudy = () => {
       </section>
 
       {/* Hero Image */}
-      <section className="max-w-6xl mx-auto px-6">
+      {/* Hero Showcase */}
+        <section className="max-w-6xl mx-auto px-6">
 
-        <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-[#0F172A]">
+            <div className="relative">
 
-          <div className="absolute inset-0 bg-gradient-to-b from-[#38BDF8]/5 to-transparent pointer-events-none" />
+        {/* Desktop Browser Showcase */}
+        <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-[#0F172A] shadow-2xl">
 
-          <img
-            src="/projects/real-estate/hero.png"
-            alt="Real Estate Website Preview"
-            className="w-full object-cover object-top"
-          />
+        {/* Browser Top Bar */}
+        <div className="flex items-center gap-2 px-5 py-4 border-b border-white/10 bg-[#111827]">
+
+        <div className="w-3 h-3 rounded-full bg-red-400/80" />
+        <div className="w-3 h-3 rounded-full bg-yellow-400/80" />
+        <div className="w-3 h-3 rounded-full bg-green-400/80" />
+
+        <div className="ml-4 px-4 py-1 rounded-full bg-white/5 text-xs text-[#94A3B8] border border-white/5">
+          realestate.pancharasshubham.com
+        </div>
+
+      </div>
+
+      {/* Browser Image */}
+      <img
+        src="/projects/real-estate/card-preview.png"
+        alt="Real Estate Desktop Preview"
+        className="w-full object-cover"
+      />
+
+    </div>
+
+    {/* Floating Mobile Preview */}
+    <div className="hidden md:block absolute -bottom-12 right-10">
+
+      <div className="relative">
+
+        {/* Glow */}
+        <div className="absolute inset-0 bg-[#38BDF8]/10 blur-2xl rounded-full scale-110" />
+
+        {/* Phone Frame */}
+        <div className="relative w-[220px] rounded-[2.5rem] border border-white/10 bg-[#0F172A] p-3 shadow-2xl">
+
+          {/* Notch */}
+          <div className="absolute top-3 left-1/2 -translate-x-1/2 w-24 h-5 bg-black rounded-full z-20" />
+
+          {/* Mobile Screen */}
+          <div className="overflow-hidden rounded-[2rem] border border-white/5">
+
+            <img
+              src="/projects/real-estate/mobile-view.png"
+              alt="Real Estate Mobile Preview"
+              className="w-full object-cover object-top"
+            />
+
+          </div>
 
         </div>
 
-      </section>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
 
       {/* Problem + Solution */}
       <section className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-16">

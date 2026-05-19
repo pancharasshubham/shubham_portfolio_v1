@@ -49,7 +49,7 @@ const Projects = () => {
 
     tech: ['React', 'Tailwind CSS', 'Vite', 'Responsive Design'],
 
-    image: '/projects/real-estate/hero.png',
+    image: '/projects/real-estate/card-preview.png',
 
     live: 'https://realestate.pancharasshubham.com',
 
