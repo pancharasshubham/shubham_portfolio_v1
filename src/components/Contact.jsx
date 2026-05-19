@@ -190,7 +190,7 @@ const Contact = () => {
           className="mt-16 text-center"
         >
           <p className="text-[#94A3B8] mb-4">
-            © 2025 Shubham Pancharas. Built with React, TailwindCSS, and passion for clean code.
+            © 2026 Shubham Pancharas. Built with React, TailwindCSS, and passion for clean code.
           </p>
           <div className="flex justify-center gap-4">
             <motion.a
