@@ -51,7 +51,7 @@ const Projects = () => {
 
     tech: ['Node.js', 'Express.js', 'MongoDB', 'REST API'],
 
-    image: '/projects/saascope-api-preview.png',
+    image: '/projects/saascope-api/hero.png',
 
     live: '',
 
