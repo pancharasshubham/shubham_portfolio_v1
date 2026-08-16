@@ -13,7 +13,7 @@ const Hero = () => {
     <section id="hero" className="min-h-screen flex flex-col justify-center px-4 pt-20 pb-10 relative overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[720px] h-[720px] bg-[#38BDF8]/10 rounded-full blur-[150px] pointer-events-none" />
 
-      <div className="container mx-auto max-w-6xl relative z-10">
+      <div className="max-w-7xl mx-auto px-5 md:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
 
         {/* Main Heading */}
-        <h1 className="mt-8 text-4xl md:text-2xl lg:text-5xl font-black tracking-tight leading-[1.05] text-white">
+        <h1 className="mt-8 text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-[1.05] text-white">
           I build fast,
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#38BDF8] to-[#22C55E]">
             mobile-first web products
@@ -131,7 +131,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative flex justify-center md:justify-end"
           >
-            <div className="relative w-[340px] md:w-[420px] aspect-[4/5] mx-auto">
+            <div className="relative w-[260px] sm:w-[300px] md:w-[420px] aspect-[4/5] mx-auto">
               
               {/* Background Glow */}
               <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-br from-[#38BDF8]/20 to-[#22C55E]/20 blur-3xl scale-105" />

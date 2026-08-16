@@ -40,7 +40,7 @@ const Header = () => {
         isScrolled ? 'bg-[#1E293B]/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
       }`}
     >
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="max-w-7xl mx-auto px-5 md:px-8 py-4">
         <div className="flex items-center justify-between">
           <motion.div
             whileHover={{ scale: 1.05 }}
