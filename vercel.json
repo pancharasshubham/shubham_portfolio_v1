@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/projects/inspirex",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/projects/saascope-api",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/projects/ai-usage-policy-generator",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/projects/real-estate-business-website",
+      "destination": "/index.html"
+    }
+  ]
+}
