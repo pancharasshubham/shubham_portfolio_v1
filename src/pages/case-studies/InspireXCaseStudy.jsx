@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import {
   ArrowLeft,
   ExternalLink,
@@ -26,7 +27,11 @@ const stack = [
 
 const InspireXCaseStudy = () => {
   return (
-    <main className="min-h-screen bg-[#020617] text-white">
+    <>
+      <Helmet>
+        <link rel="canonical" href="https://pancharasshubham.com/projects/inspirex" />
+      </Helmet>
+      <main className="min-h-screen bg-[#020617] text-white">
 
       {/* Top Navigation */}
       <section className="border-b border-white/10">
@@ -279,7 +284,8 @@ const InspireXCaseStudy = () => {
 
       </section>
 
-    </main>
+      </main>
+    </>
   );
 };
 

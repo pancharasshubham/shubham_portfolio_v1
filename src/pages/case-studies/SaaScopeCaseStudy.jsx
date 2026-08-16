@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import {
   ArrowLeft,
@@ -27,7 +28,11 @@ const decisions = [
 
 const SaaScopeCaseStudy = () => {
   return (
-    <main className="min-h-screen bg-[#020617] text-white">
+    <>
+      <Helmet>
+        <link rel="canonical" href="https://pancharasshubham.com/projects/saascope-api" />
+      </Helmet>
+      <main className="min-h-screen bg-[#020617] text-white">
 
       {/* Top Navigation */}
       <section className="border-b border-white/10">
@@ -265,7 +270,8 @@ const SaaScopeCaseStudy = () => {
 
       </section>
 
-    </main>
+      </main>
+    </>
   );
 };
 

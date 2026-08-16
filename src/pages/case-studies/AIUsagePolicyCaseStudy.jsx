@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import {
   ArrowLeft,
@@ -25,7 +26,11 @@ const stack = [
 
 const AIUsagePolicyCaseStudy = () => {
   return (
-    <main className="min-h-screen bg-[#020617] text-white">
+    <>
+      <Helmet>
+        <link rel="canonical" href="https://pancharasshubham.com/projects/ai-usage-policy-generator" />
+      </Helmet>
+      <main className="min-h-screen bg-[#020617] text-white">
 
       {/* Top Navigation */}
       <section className="border-b border-white/10">
@@ -245,7 +250,8 @@ const AIUsagePolicyCaseStudy = () => {
 
       </section>
 
-    </main>
+      </main>
+    </>
   );
 };
 
