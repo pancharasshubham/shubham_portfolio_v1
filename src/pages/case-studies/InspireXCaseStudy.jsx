@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import SEO from '@/components/SEO';
 import {
   ArrowLeft,
   ExternalLink,
@@ -28,9 +28,12 @@ const stack = [
 const InspireXCaseStudy = () => {
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href="https://pancharasshubham.com/projects/inspirex" />
-      </Helmet>
+      <SEO
+        title="InspireX | Case Study | Shubham Pancharas"
+        description="Case study of InspireX, a mobile-first platform for intentional content discovery, built with Next.js, React, Node.js, MongoDB, Tailwind CSS, and PWA technology."
+        canonical="https://pancharasshubham.com/projects/inspirex"
+        ogImage="https://pancharasshubham.com/projects/inspirex/hero.png"
+      />
       <main className="min-h-screen bg-[#020617] text-white">
 
       {/* Top Navigation */}

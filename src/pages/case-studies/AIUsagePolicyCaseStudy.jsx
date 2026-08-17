@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import SEO from '@/components/SEO';
 
 import {
   ArrowLeft,
@@ -27,9 +27,12 @@ const stack = [
 const AIUsagePolicyCaseStudy = () => {
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href="https://pancharasshubham.com/projects/ai-usage-policy-generator" />
-      </Helmet>
+      <SEO
+        title="AI Usage Policy Generator | Case Study | Shubham Pancharas"
+        description="Case study of an AI Usage Policy Generator that helps teams create clear, human-readable AI policies through structured real-time workflows using React, TypeScript, Vite, and Tailwind CSS."
+        canonical="https://pancharasshubham.com/projects/ai-usage-policy-generator"
+        ogImage="https://pancharasshubham.com/projects/ai-policy-generator/hero.png"
+      />
       <main className="min-h-screen bg-[#020617] text-white">
 
       {/* Top Navigation */}

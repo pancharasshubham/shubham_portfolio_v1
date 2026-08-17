@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import SEO from '@/components/SEO';
 
 import {
   ArrowLeft,
@@ -27,9 +27,12 @@ const stack = [
 const RealEstateCaseStudy = () => {
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href="https://pancharasshubham.com/projects/real-estate-business-website" />
-      </Helmet>
+      <SEO
+        title="Real Estate Business Website | Case Study | Shubham Pancharas"
+        description="Case study of a mobile-first real estate website designed to improve property discovery, inquiry conversion, and local lead generation using React, TypeScript, Vite, and Tailwind CSS."
+        canonical="https://pancharasshubham.com/projects/real-estate-business-website"
+        ogImage="https://pancharasshubham.com/projects/real-estate/card-preview.png"
+      />
       <main className="min-h-screen bg-[#020617] text-white">
 
       {/* Top Navigation */}

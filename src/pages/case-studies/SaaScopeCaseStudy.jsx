@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import SEO from '@/components/SEO';
 
 import {
   ArrowLeft,
@@ -29,9 +29,12 @@ const decisions = [
 const SaaScopeCaseStudy = () => {
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href="https://pancharasshubham.com/projects/saascope-api" />
-      </Helmet>
+      <SEO
+        title="SaaScope API | Case Study | Shubham Pancharas"
+        description="Case study of SaaScope API, a backend platform for SaaS spend visibility, structured insights, and cost optimization built with Node.js, TypeScript, Express, PostgreSQL, and JWT."
+        canonical="https://pancharasshubham.com/projects/saascope-api"
+        ogImage="https://pancharasshubham.com/projects/saascope-api/hero.png"
+      />
       <main className="min-h-screen bg-[#020617] text-white">
 
       {/* Top Navigation */}
