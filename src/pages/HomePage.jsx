@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import SEO from '@/components/SEO';
 
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
@@ -13,16 +13,12 @@ import Contact from '@/components/Contact';
 const HomePage = () => {
   return (
     <>
-      <Helmet>
-        <title>
-          Shubham Pancharas - Full-Stack Developer
-        </title>
-
-        <meta
-          name="description"
-          content="Portfolio of Shubham Pancharas, a full-stack developer focused on scalable web products, frontend architecture, and real-world business solutions."
-        />
-      </Helmet>
+      <SEO
+        title="Shubham Pancharas | Full-Stack Developer"
+        description="Portfolio of Shubham Pancharas, a full-stack developer focused on scalable web products, frontend architecture, and real-world business solutions."
+        canonical="https://pancharasshubham.com/"
+        ogImage="https://pancharasshubham.com/og-image.png"
+      />
 
       <div className="min-h-screen bg-[#0F172A] text-[#F8FAFC]">
         <Header />
