@@ -2,19 +2,19 @@
   "rewrites": [
     {
       "source": "/projects/inspirex",
-      "destination": "/index.html"
+      "destination": "/projects/inspirex/index.html"
     },
     {
       "source": "/projects/saascope-api",
-      "destination": "/index.html"
+      "destination": "/projects/saascope-api/index.html"
     },
     {
       "source": "/projects/ai-usage-policy-generator",
-      "destination": "/index.html"
+      "destination": "/projects/ai-usage-policy-generator/index.html"
     },
     {
       "source": "/projects/real-estate-business-website",
-      "destination": "/index.html"
+      "destination": "/projects/real-estate-business-website/index.html"
     }
   ]
 }

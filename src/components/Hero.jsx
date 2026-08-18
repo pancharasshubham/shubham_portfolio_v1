@@ -20,9 +20,9 @@ const Hero = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-10 md:mb-16"
         >
-          <h1 className="mt-5 text-4xl md:text-6xl lg:text-7xl max-w-4xl mx-auto leading-tight font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-[#F8FAFC] via-[#E2E8F0] to-[#94A3B8]">
+          <p className="mt-5 text-4xl md:text-6xl lg:text-7xl max-w-4xl mx-auto leading-tight font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-[#F8FAFC] via-[#E2E8F0] to-[#94A3B8]">
             Shubham Pancharas
-          </h1>
+          </p>
           <div className="h-2 w-28 md:w-36 bg-gradient-to-r from-[#38BDF8] to-[#22C55E] mx-auto mt-5 rounded-full opacity-80" />
         </motion.div>
 

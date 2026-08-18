@@ -9,9 +9,9 @@ import RealEstateCaseStudy from '@/pages/case-studies/RealEstateCaseStudy';
 
 import { Toaster } from '@/components/ui/toaster';
 
-function App() {
+export function AppRoutes() {
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
       <Routes>
 
@@ -47,6 +47,14 @@ function App() {
       </Routes>
 
       <Toaster />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppRoutes />
     </BrowserRouter>
   );
 }
