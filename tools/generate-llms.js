@@ -101,16 +101,14 @@ function findReactFiles(dir) {
 }
 
 function extractHelmetData(content, filePath, routes) {
-  const cleanedContent = cleanContent(content);
-  
-  if (!EXTRACTION_REGEX.helmetTest.test(cleanedContent)) {
-    return null;
-  }
   
   const helmetMatch = content.match(EXTRACTION_REGEX.helmet);
-  if (!helmetMatch) return null;
   
+  if (!helmetMatch) {
+    return null;
+  }
   const helmetContent = helmetMatch[1];
+  
   const titleMatch = helmetContent.match(EXTRACTION_REGEX.title);
   const descMatch = helmetContent.match(EXTRACTION_REGEX.description);
   
@@ -118,13 +116,14 @@ function extractHelmetData(content, filePath, routes) {
   const description = cleanText(descMatch?.[1]);
   
   const fileName = path.basename(filePath, path.extname(filePath));
-  const url = routes.length && routes.has(fileName) 
+  
+  const url = routes.has(fileName) 
     ? routes.get(fileName) 
     : generateFallbackUrl(fileName);
   
   return {
     url,
-    title: title || 'Untitled Page',
+    title: title || fileName,
     description: description || 'No description available'
   };
 }
@@ -177,10 +176,10 @@ function main() {
       .filter(Boolean);
   }
 
-  if (pages.length === 0) {
-    console.error('❌ No pages with Helmet components found!');
-    process.exit(1);
-  }
+ if (pages.length === 0) {
+  console.warn('⚠️ No pages with Helmet components found. Skipping llms.txt generation.');
+  process.exit(0);
+}
 
 
   const llmsTxtContent = generateLlmsTxt(pages);
