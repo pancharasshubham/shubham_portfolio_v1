@@ -31,7 +31,7 @@ const SaaScopeCaseStudy = () => {
     <>
       <SEO
         title="SaaScope API | Case Study | Shubham Pancharas"
-        description="Case study of SaaScope API, a backend platform for SaaS spend visibility, structured insights, and cost optimization built with Node.js, TypeScript, Express, PostgreSQL, and JWT."
+        description="Explore SaaScope API, a Node.js and TypeScript platform for SaaS spend visibility, insights, and cost optimization."
         canonical="https://pancharasshubham.com/projects/saascope-api"
         ogImage="https://pancharasshubham.com/projects/saascope-api/hero.png"
       />

@@ -29,7 +29,7 @@ const AIUsagePolicyCaseStudy = () => {
     <>
       <SEO
         title="AI Usage Policy Generator | Case Study | Shubham Pancharas"
-        description="Case study of an AI Usage Policy Generator that helps teams create clear, human-readable AI policies through structured real-time workflows using React, TypeScript, Vite, and Tailwind CSS."
+        description="Generate clear AI usage policies with a structured React and TypeScript workflow. Explore this lightweight tool's product decisions and implementation."
         canonical="https://pancharasshubham.com/projects/ai-usage-policy-generator"
         ogImage="https://pancharasshubham.com/projects/ai-policy-generator/hero.png"
       />

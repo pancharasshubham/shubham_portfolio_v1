@@ -30,7 +30,7 @@ const InspireXCaseStudy = () => {
     <>
       <SEO
         title="InspireX | Case Study | Shubham Pancharas"
-        description="Case study of InspireX, a mobile-first platform for intentional content discovery, built with Next.js, React, Node.js, MongoDB, Tailwind CSS, and PWA technology."
+        description="Explore InspireX, a mobile-first content discovery platform built with Next.js, React, MongoDB, Tailwind CSS, and PWA technology."
         canonical="https://pancharasshubham.com/projects/inspirex"
         ogImage="https://pancharasshubham.com/projects/inspirex/hero.png"
       />

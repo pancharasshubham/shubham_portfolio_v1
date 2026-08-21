@@ -29,7 +29,7 @@ const RealEstateCaseStudy = () => {
     <>
       <SEO
         title="Real Estate Business Website | Case Study | Shubham Pancharas"
-        description="Case study of a mobile-first real estate website designed to improve property discovery, inquiry conversion, and local lead generation using React, TypeScript, Vite, and Tailwind CSS."
+        description="Explore a mobile-first real estate website built with React and TypeScript to showcase properties, increase inquiries, and generate local leads."
         canonical="https://pancharasshubham.com/projects/real-estate-business-website"
         ogImage="https://pancharasshubham.com/projects/real-estate/card-preview.png"
       />
