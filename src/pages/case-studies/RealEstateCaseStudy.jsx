@@ -31,7 +31,7 @@ const RealEstateCaseStudy = () => {
         title="Real Estate Business Website | Case Study | Shubham Pancharas"
         description="Explore a mobile-first real estate website built with React and TypeScript to showcase properties, increase inquiries, and generate local leads."
         canonical="https://pancharasshubham.com/projects/real-estate-business-website"
-        ogImage="https://pancharasshubham.com/projects/real-estate/card-preview.png"
+        ogImage="https://pancharasshubham.com/projects/real-estate/card-preview.webp"
       />
       <main className="min-h-screen bg-[#020617] text-white">
 
@@ -120,7 +120,7 @@ const RealEstateCaseStudy = () => {
 
       {/* Browser Image */}
       <img
-        src="/projects/real-estate/card-preview.png"
+        src="/projects/real-estate/card-preview.webp"
         alt="Real Estate Desktop Preview"
         className="w-full object-cover"
       />
@@ -145,7 +145,7 @@ const RealEstateCaseStudy = () => {
           <div className="overflow-hidden rounded-[2rem] border border-white/5">
 
             <img
-              src="/projects/real-estate/mobile-view.png"
+              src="/projects/real-estate/mobile-view."
               alt="Real Estate Mobile Preview"
               className="w-full object-cover object-top"
             />

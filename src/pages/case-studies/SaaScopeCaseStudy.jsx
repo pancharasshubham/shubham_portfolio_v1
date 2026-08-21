@@ -33,7 +33,7 @@ const SaaScopeCaseStudy = () => {
         title="SaaScope API | Case Study | Shubham Pancharas"
         description="Explore SaaScope API, a Node.js and TypeScript platform for SaaS spend visibility, insights, and cost optimization."
         canonical="https://pancharasshubham.com/projects/saascope-api"
-        ogImage="https://pancharasshubham.com/projects/saascope-api/hero.png"
+        ogImage="https://pancharasshubham.com/projects/saascope-api/hero.webp"
       />
       <main className="min-h-screen bg-[#020617] text-white">
 
@@ -103,7 +103,7 @@ const SaaScopeCaseStudy = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-[#38BDF8]/5 to-transparent pointer-events-none" />
 
           <img
-            src="/projects/saascope-api/hero.png"
+            src="/projects/saascope-api/hero.webp"
             alt="SaaScope API Preview"
             className="w-full object-cover"
           />
