@@ -32,7 +32,7 @@ const Projects = () => {
 
     tech: ['Node.js', 'Express.js', 'MongoDB', 'REST API'],
 
-    image: '/projects/saascope-api/hero.png',
+    image: '/projects/saascope-api/hero.webp',
 
     live: '',
 
@@ -49,7 +49,7 @@ const Projects = () => {
 
     tech: ['React', 'Tailwind CSS', 'Vite', 'Responsive Design'],
 
-    image: '/projects/real-estate/card-preview.png',
+    image: '/projects/real-estate/card-preview.webp',
 
     live: 'https://realestate.pancharasshubham.com',
 
