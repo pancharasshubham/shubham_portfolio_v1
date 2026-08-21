@@ -145,7 +145,7 @@ const RealEstateCaseStudy = () => {
           <div className="overflow-hidden rounded-[2rem] border border-white/5">
 
             <img
-              src="/projects/real-estate/mobile-view."
+              src="/projects/real-estate/mobile-view.webp"
               alt="Real Estate Mobile Preview"
               className="w-full object-cover object-top"
             />
